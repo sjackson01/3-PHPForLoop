@@ -75,10 +75,20 @@ $facts = array(
     98 => '% of the atoms in your body are replaced every year',
     69 => ' is the largest number of recorded children born to one woman',
 );
+
+/*
 //add your loop below this line
 
 for($i=1; $i<=100;$i++){
 echo $i . "\n"; 
+}
+*/
+
+for ( $i = 1; $i <= 100; $i++ ) {
+    echo $i;//Echo keys
+    if (isset($facts[$i])) { //If key is same as iterative variable 
+        echo $facts[$i] . "<br />\n";//Print iterative variable
+    }
 }
 
 ?>
