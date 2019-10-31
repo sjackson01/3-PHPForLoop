@@ -4,8 +4,7 @@
     !PHP For Loops! 
     Remove comments 
     to manipulate 
-    code blocks. 
-
+    code blocks.
 */
 
 //Add code from pervious exercise 
